@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        color: navajowhite;
+        font-size: 3em;
+    }
+}
+#tech {
+    display: flex;
+}
+.icons {
+    height: 10vh;
+    width: 10vh;
+//    border: 1px dotted red;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    &:first-of-type {
+        background-image: url('http://marcingladkowski.pl//images/HTML5.svg');
+    }
+    &:nth-of-type(2) {
+        background-image: url('http://marcingladkowski.pl//images/CSS3.svg');
+    }
+    &:nth-of-type(3) {
+        background-image: url('http://marcingladkowski.pl//images/js.svg');
+    }
+    &:nth-of-type(4) {
+        background-image: url('http://marcingladkowski.pl//images/jquery.svg');
+    }
+    &:nth-of-type(5) {
+        background-image: url('http://marcingladkowski.pl//images/sass.svg');
+    }
+    &:nth-of-type(6) {
+        background-image: url('http://marcingladkowski.pl//images/rwd.svg');
+    }
+}

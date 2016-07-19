@@ -1,0 +1,62 @@
+#contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+#contain a {
+    height: 10vh;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border-radius: 1vh;
+    transition: all .2s ease-in-out;
+    &:nth-of-type(1) {
+        width: 20vh;
+        background-image: url("http://marcingladkowski.pl//images/LinkedIn_Logo.svg");  
+    }
+    &:nth-of-type(2) {  
+        width: 17vh;
+        background-image: url("http://marcingladkowski.pl//images/Git2.svg");
+    }
+    &:nth-of-type(3) {  
+        width: 10vh;
+        background-image: url("http://marcingladkowski.pl//images/cv.svg");
+    }
+    &:nth-of-type(4) {  
+        width: 10vh;
+        background-image: url("http://marcingladkowski.pl//images/facebook.svg");
+    }
+    &:nth-of-type(5) {  
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        font-size: 1.5em;
+        width: 34vh;
+        background-color: transparent;
+        color: navajowhite;
+    }
+}
+#contain a:hover {
+    transform: scale(1.2); 
+}
+#contain a:nth-of-type(3) {
+    &:hover {
+    transform: scale(1.2); 
+    background-image: url("http://marcingladkowski.pl//images/cv_red.svg"); 
+    }
+}
+
+#first {
+    width: 30vh;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border-radius: 2vh;
+    background-image: url("http://marcingladkowski.pl//images/avatar.svg");
+    &:hover {
+        background-image: url("http://marcingladkowski.pl//images/my_photo.JPG");
+    }
+}
