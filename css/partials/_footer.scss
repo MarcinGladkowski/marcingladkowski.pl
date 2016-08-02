@@ -1,15 +1,28 @@
 footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 20vh;
+    width: 100%;
+    @media #{$mobile}{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 h4 {
         color: navajowhite;
         font-size: 2em;
         margin: 0;
+            @media #{$mobile} {
+            font-size: 1em;
+    }
 }
 h6 {
         color: navajowhite;
         font-size: 2em;
         margin: 0;
+            @media #{$mobile} {
+            font-size: 1em;
+    }    
 }

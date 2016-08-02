@@ -1,56 +1,97 @@
-/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ header { display: flex; align-items: center; justify-content: space-between; }
+/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_body.scss */ body { background-image: url("http://marcingladkowski.pl//images/back2.jpg"); background-size: cover; background-color: black; font-family: 'Quicksand', sans-serif; display: flex; flex-wrap: wrap; }
 
-/* line 5, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ header h1 { color: navajowhite; font-size: 3em; }
+/* line 9, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_body.scss */ #container { margin: 0 auto; width: 1000vh; max-width: 1200px; display: flex; justify-content: center; flex-wrap: wrap; }
 
-/* line 10, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ #tech { display: flex; }
+/* line 17, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_body.scss */ span { color: skyblue; }
 
-/* line 13, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons { height: 10vh; width: 10vh; background-repeat: no-repeat; background-position: center center; background-size: contain; }
+/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain { display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; height: 60vh; width: 100%; }
 
-/* line 20, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:first-of-type { background-image: url("http://marcingladkowski.pl//images/HTML5.svg"); }
+/* line 9, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a { height: 10vh; background-color: transparent; background-repeat: no-repeat; background-size: contain; background-position: center center; display: flex; flex-wrap: wrap; border-radius: 1vh; transition: all 0.2s ease-in-out; }
 
-/* line 23, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(2) { background-image: url("http://marcingladkowski.pl//images/CSS3.svg"); }
+/* line 19, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(1) { width: 20vh; background-image: url("http://marcingladkowski.pl//images/LinkedIn_Logo.svg"); }
 
-/* line 26, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(3) { background-image: url("http://marcingladkowski.pl//images/js.svg"); }
+/* line 23, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(2) { width: 17vh; background-image: url("http://marcingladkowski.pl//images/Git2.svg"); }
 
-/* line 29, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(4) { background-image: url("http://marcingladkowski.pl//images/jquery.svg"); }
+/* line 27, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(3) { width: 10vh; background-image: url("http://marcingladkowski.pl//images/cv.svg"); }
 
-/* line 32, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(5) { background-image: url("http://marcingladkowski.pl//images/sass.svg"); }
+/* line 31, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(4) { width: 10vh; background-image: url("http://marcingladkowski.pl//images/facebook.svg"); }
 
-/* line 35, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(6) { background-image: url("http://marcingladkowski.pl//images/rwd.svg"); }
+/* line 35, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(5) { display: flex; text-decoration: none; align-items: center; font-size: 1.2em; width: 34vh; background-color: transparent; color: navajowhite; }
 
-/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_body.scss */ body { background-image: url("http://marcingladkowski.pl//images/back2.jpg"); background-size: cover; background-color: black; font-family: 'Quicksand', sans-serif; }
+/* line 45, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:hover { transform: scale(1.2); }
 
-/* line 7, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_body.scss */ #container { margin: 0 auto; width: 1000vh; max-width: 1200px; }
+/* line 49, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(3):hover { transform: scale(1.2); background-image: url("http://marcingladkowski.pl//images/cv_red.svg"); }
 
-/* line 12, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_body.scss */ span { color: skyblue; }
+/* line 55, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #first { width: 30vh; height: 30vh; background-repeat: no-repeat; background-size: contain; background-position: center center; display: flex; border-radius: 2vh; background-image: url("http://marcingladkowski.pl//images/avatar.svg"); }
 
-/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain { display: flex; justify-content: space-around; align-items: center; height: 60vh; }
+/* line 64, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #first:hover { background-image: url("http://marcingladkowski.pl//images/my_photo.jpg"); }
 
-/* line 7, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a { height: 10vh; background-color: transparent; background-repeat: no-repeat; background-size: contain; background-position: center center; border-radius: 1vh; transition: all 0.2s ease-in-out; }
+/* line 69, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #pl, #eng { width: 7vh; height: 10vh; background-color: none; border: 1vh solid black; opacity: 1; font-size: 1em; text-align: center; text-decoration: none; color: black; line-height: 10vh; font-weight: bold; transition: all 0.2s ease-in-out; }
 
-/* line 15, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(1) { width: 20vh; background-image: url("http://marcingladkowski.pl//images/LinkedIn_Logo.svg"); }
+/* line 82, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #pl:hover, #eng:hover { transform: scale(1.2); border: 1vh solid red; }
 
-/* line 19, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(2) { width: 17vh; background-image: url("http://marcingladkowski.pl//images/Git2.svg"); }
+/* line 87, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .box { width: 40%; margin: 0 auto; background: rgba(255, 255, 255, 0.2); padding: 35px; border: 2px solid #fff; border-radius: 20px/50px; background-clip: padding-box; text-align: center; }
 
-/* line 23, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(3) { width: 10vh; background-image: url("http://marcingladkowski.pl//images/cv.svg"); }
+/* line 98, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .button { font-size: 1em; padding: 10px; color: #fff; border-radius: 20px/50px; text-decoration: none; cursor: pointer; transition: all 0.3s ease-out; }
 
-/* line 27, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(4) { width: 10vh; background-image: url("http://marcingladkowski.pl//images/facebook.svg"); }
+/* line 107, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .button:hover { background: #06D85F; }
 
-/* line 31, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(5) { display: flex; text-decoration: none; align-items: center; font-size: 1.5em; width: 34vh; background-color: transparent; color: navajowhite; }
+/* line 111, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .overlay { position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
 
-/* line 41, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:hover { transform: scale(1.2); }
+/* line 122, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .overlay:target { visibility: visible; opacity: 1; }
 
-/* line 45, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #contain a:nth-of-type(3):hover { transform: scale(1.2); background-image: url("http://marcingladkowski.pl//images/cv_red.svg"); }
+/* line 127, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .popup { margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 35vh; height: 25vh; position: relative; transition: all 5s ease-in-out; }
 
-/* line 51, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #first { width: 30vh; height: 30vh; background-repeat: no-repeat; background-size: contain; background-position: center center; border-radius: 2vh; background-image: url("http://marcingladkowski.pl//images/avatar.svg"); }
+/* line 138, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .popup h2 { margin-top: 0; color: #333; font-family: Tahoma, Arial, sans-serif; }
 
-/* line 59, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ #first:hover { background-image: url("http://marcingladkowski.pl//images/my_photo.JPG"); }
+/* line 143, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .popup .close { position: absolute; top: 20px; right: 30px; transition: all 200ms; font-size: 30px; font-weight: bold; text-decoration: none; color: #333; }
 
-/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ footer { display: flex; justify-content: space-between; height: 20vh; }
+/* line 153, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .popup .close:hover { color: #06D85F; }
 
-/* line 6, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ h4 { color: navajowhite; font-size: 2em; margin: 0; }
+/* line 156, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .popup .content { max-height: 90%; max-width: 90%; }
 
-/* line 11, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ h6 { color: navajowhite; font-size: 2em; margin: 0; }
+/* line 160, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .content { height: 15vh; display: flex; width: 100%; flex-direction: row; flex-wrap: wrap; justify-content: space-around; }
+
+@media screen and (max-width: 700px) { /* line 171, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .box { width: 70%; }
+  /* line 174, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_mainSite.scss */ .popup { width: 70%; } }
+
+/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ header { display: flex; align-items: center; justify-content: space-between; height: 20vh; width: 100%; }
+
+@media (max-width: 550px) { /* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ header { flex-direction: column; justify-content: center; align-items: center; } }
+
+/* line 13, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ h1 { color: navajowhite; font-size: 3em; }
+
+@media (max-width: 550px) { /* line 13, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ h1 { font-size: 2em; } }
+
+/* line 20, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ #tech { display: flex; }
+
+/* line 23, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons { height: 10vh; width: 10vh; display: flex; background-repeat: no-repeat; background-position: center center; background-size: contain; }
+
+@media (max-width: 550px) { /* line 23, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons { height: 6vh; width: 6vh; } }
+
+/* line 34, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:first-of-type { background-image: url("http://marcingladkowski.pl//images/HTML5.svg"); }
+
+/* line 37, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(2) { background-image: url("http://marcingladkowski.pl//images/CSS3.svg"); }
+
+/* line 40, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(3) { background-image: url("http://marcingladkowski.pl//images/js.svg"); }
+
+/* line 43, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(4) { background-image: url("http://marcingladkowski.pl//images/jquery.svg"); }
+
+/* line 46, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(5) { background-image: url("http://marcingladkowski.pl//images/sass.svg"); }
+
+/* line 49, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_header.scss */ .icons:nth-of-type(6) { background-image: url("http://marcingladkowski.pl//images/rwd.svg"); }
+
+/* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ footer { display: flex; flex-wrap: wrap; justify-content: space-between; height: 20vh; width: 100%; }
+
+@media (max-width: 550px) { /* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ footer { flex-direction: column; justify-content: center; align-items: center; } }
+
+/* line 13, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ h4 { color: navajowhite; font-size: 2em; margin: 0; }
+
+@media (max-width: 550px) { /* line 13, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ h4 { font-size: 1em; } }
+
+/* line 21, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ h6 { color: navajowhite; font-size: 2em; margin: 0; }
+
+@media (max-width: 550px) { /* line 21, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_footer.scss */ h6 { font-size: 1em; } }
 
 /* line 1, C:/Users/Marcin/Desktop/marcingladkowski.pl/css/partials/_webs180main.scss */ #contain2 { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 60vh; }
 

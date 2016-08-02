@@ -2,9 +2,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    h1 {
-        color: navajowhite;
-        font-size: 3em;
+    height: 20vh;
+    width: 100%;
+    @media #{$mobile}{
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+h1 {
+    color: navajowhite;
+    font-size: 3em;
+        @media #{$mobile}{
+        font-size: 2em;
     }
 }
 #tech {
@@ -13,10 +23,14 @@ header {
 .icons {
     height: 10vh;
     width: 10vh;
-//    border: 1px dotted red;
+    display: flex;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+       @media #{$mobile}{
+        height: 6vh;
+         width: 6vh;
+    }
     &:first-of-type {
         background-image: url('http://marcingladkowski.pl//images/HTML5.svg');
     }
